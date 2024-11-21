@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link, useLocation } from 'react-router-dom';
 
-export default function Footer() {
+export default function Footer()  {
   const location = useLocation();
   
   const scrollToSection = (sectionId: string) => {
